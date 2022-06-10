@@ -1,6 +1,6 @@
 node default {
   file {'/root/README':
     ensure=> file,
-    content => 'This is a site.pp file\n',
+    content => "This is a site.pp file\n",
   }
 }
